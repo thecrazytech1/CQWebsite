@@ -1,3 +1,7 @@
+*, html, body{
+  scroll-behavior: smooth;
+}
+
 .context {
     width: 100%;
     position: absolute;
@@ -1946,46 +1950,3 @@ a {
 }
 
 
-
-
-
-.w-webflow-badge {
-  position: fixed !important;
-  display: inline-block !important;
-  visibility: visible !important;
-  z-index: 2147483647 !important;
-  top: auto !important;
-  right: 12
-px
-!important;
-  bottom: 12
-px
-!important;
-  left: auto !important;
-  color: #AAADB0 !important;
-  background-color: #fff !important;
-  border-radius: 3
-px
-!important;
-  padding: 6
-px
-8
-px
-6
-px
-6
-px
-!important;
-  font-size: 12px !important;
-  opacity: 1 !important;
-  line-height: 14px !important;
-  text-decoration: none !important;
-  transform: none !important;
-  margin: 0 !important;
-  width: auto !important;
-  height: auto !important;
-  overflow: visible !important;
-  white-space: nowrap;
-  box-shadow: 0 0 0 1px rgb(0 0 0 / 10%), 0 1px 3px rgb(0 0 0 / 10%);
-  cursor: pointer;
-}
