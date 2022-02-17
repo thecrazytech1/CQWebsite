@@ -1856,7 +1856,7 @@ a {
 }
 
 #menu {
-	background: #0079A1;
+	background: #d3d619;
 	color: #FFF;
 	height: 45px;
 	padding-left: 18px;
@@ -1889,7 +1889,7 @@ a {
 }
 #menu li a:hover {
 	color: #FFF2F2;
-	background: #006687;
+	background: #dfdfdf;
 }
 #menu input {
 	display: none;
@@ -1916,7 +1916,7 @@ a {
 	height: auto;
 	overflow: hidden;
 	width: 170px;
-	background: #0079A1;
+	background: #dfdfdf;
 	position: absolute;
 	z-index: 99;
 	display: none;
