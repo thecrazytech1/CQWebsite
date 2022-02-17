@@ -1856,7 +1856,7 @@ a {
 }
 
 #menu {
-	background: #d3d619;
+	background: #0079A1;
 	color: #FFF;
 	height: 45px;
 	padding-left: 18px;
@@ -1889,7 +1889,7 @@ a {
 }
 #menu li a:hover {
 	color: #FFF2F2;
-	background: #dfdfdf;
+	background: #006687;
 }
 #menu input {
 	display: none;
@@ -1916,7 +1916,7 @@ a {
 	height: auto;
 	overflow: hidden;
 	width: 170px;
-	background: #dfdfdf;
+	background: #0079A1;
 	position: absolute;
 	z-index: 99;
 	display: none;
@@ -1933,8 +1933,8 @@ a {
 	display: block
 }
 #menu ul.sub-menus a:hover{
-	background: #6d6d6d;
-	color: #cecece;
+	background: #006F94;
+	color: #444444;
 }
 @media screen and (max-width: 800px){
 	#menu {position:relative}
