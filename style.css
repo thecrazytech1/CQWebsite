@@ -1933,8 +1933,8 @@ a {
 	display: block
 }
 #menu ul.sub-menus a:hover{
-	background: #006F94;
-	color: #444444;
+	background: #6d6d6d;
+	color: #cecece;
 }
 @media screen and (max-width: 800px){
 	#menu {position:relative}
