@@ -1620,7 +1620,7 @@ a {
 
 
 
-
+/*
 #menu {
 	background: #0099CC;
 	color: #FFF;
@@ -1808,3 +1808,5 @@ a {
 	#menu input:checked + label:before {content:"\00d7"}
 	#menu input:checked ~ ul {display:block}
 }
+
+*/
