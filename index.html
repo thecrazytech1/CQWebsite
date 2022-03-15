@@ -67,11 +67,12 @@
             <h2 class="heading-4">Am I live?</h2>
             <div class="title">Here is where you can watch and chat while watching my stream straight from here</div>
 
-            <div class="w-embed w-script section-title-group" style="margin-right: 100px;">
+            <div class="w-embed w-script section-title-group">
                 <script src="https://embed.twitch.tv/embed/v1.js"></script>
                 <div id="twitch-embed" class="embed-container"></div>
                 <script type="text/javascript">
                     new Twitch.Embed("twitch-embed", {
+                        layout: "video",
                         width: "1280",
                         height: "720",
                         channel: "chrissquartz"
