@@ -1928,3 +1928,24 @@ a {
 	#menu input:checked + label:before {content:"\00d7"}
 	#menu input:checked ~ ul {display:block}
 }
+
+
+@media screen and (min-width: 850px) {
+  .twitch {
+    position: relative;
+  }
+
+  .twitch .twitch-video {
+    width: 75%;
+    padding-top: 42.1875%;
+  }
+
+  .twitch .twitch-chat {
+    width: 25%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
