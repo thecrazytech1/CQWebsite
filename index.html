@@ -64,18 +64,26 @@
             <h2 class="heading-4">Am I live?</h2>
             <div class="title">Here is where you can watch and chat while watching my stream straight from here</div>
 
-            <div class="w-embed w-script section-title-group">
-                <script src="https://embed.twitch.tv/embed/v1.js"></script>
-                <div id="twitch-embed" class="embed-container"></div>
-                <script type="text/javascript">
-                    new Twitch.Embed("twitch-embed", {
-                        layout: "video",
-                        width: "1280",
-                        height: "720",
-                        channel: "chrissquartz"
-                    });
-                </script>
+
+
+
+            <div class="twitch">
+                <div class="twitch-video">
+                    <iframe src="https://player.twitch.tv/?channel=phil_nash&parent=philna.sh&autoplay=false"
+                        frameborder="0" scrolling="no" allowfullscreen="true" height="100%" width="100%">
+                    </iframe>
+                </div>
+                <div class="twitch-chat">
+                    <iframe frameborder="0" scrolling="no"
+                        src="https://www.twitch.tv/embed/phil_nash/chat?parent=philna.sh" height="100%" width="100%">
+                    </iframe>
+                </div>
             </div>
+
+
+
+
+
         </div>
         <div class="wrapper"></div>
     </div>
