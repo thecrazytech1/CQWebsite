@@ -1928,3 +1928,9 @@ a {
 	#menu input:checked + label:before {content:"\00d7"}
 	#menu input:checked ~ ul {display:block}
 }
+
+
+.w-webflow-badge {
+  position: fixed !important;    
+  display: None !important;    
+  visibility: hidden !important;}  
